@@ -1,8 +1,39 @@
+
+
 body {
-    text-align: center;
+    /* text-align: center; */
+    justify-content: center;
+    display: flex;
+    background-color: #606060;
+    font-family: "Ubuntu", sans-serif; 
 }
 
-#canvas {
-    /* background-color: antiquewhite; */
+.card {
+    background-color: #b5b5b5;
+    /* width: 600px; */
     margin-top: 50px;
+    padding: 30px;
+    /* border-radius: 10px; */
+    box-shadow: 10px 10px 1px 1px rgb(63, 63, 63);
+    /* position: relative; */
 }
+
+/* .game {
+    display: inline-block;
+}
+
+.stats {
+    font-size: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.stats p {
+    margin: 20px 0 0 0;
+} */
+
+/* #canvas { */
+    /* background-color: antiquewhite; */
+    /* margin-top: 50px; */
+/* } */
+

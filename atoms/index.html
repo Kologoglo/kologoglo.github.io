@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Atoms</title>
+        <title>Chain Reaction</title>
         
         <meta charset="utf-8">
+        <link rel="icon" href="favicon.png">
         <link rel="stylesheet" href="style.css">
+        <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
 
         <script src="board.js"></script>
+        <script src="score.js"></script>
         <script src="game.js"></script>
         <script src="player.js"></script>
         <script src="draw.js"></script>
@@ -14,8 +17,10 @@
     </head>
 
     <body>
-        <canvas id="canvas"></canvas>
+        <div class="card">
+            <canvas id="canvas"></canvas>
+        </div>
 
-        <script>Game.start();</script>
+        <script>Game.load();</script>
     </body>
 </html>
