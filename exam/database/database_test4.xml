@@ -1,0 +1,497 @@
+<questions>
+	<question num="1">
+		<text> O hmote môžeme povedať:</text>
+		<opt id="0"> že prejavom každej formy existencie hmoty je jej pohyb v priestore a čase</opt>
+		<opt id="1"> existuje vo forme polí</opt>
+		<opt id="2"> že sa nemôže meniť z látky na pole</opt>
+		<opt id="3"> existuje v nekonečnom množstve odlišných foriem</opt>
+		<opt id="4"> má schopnosť konať prácu</opt>
+		<opt id="5"> je napriklad gravitačné pole</opt>
+		<opt id="6"> existuje vo forme látok</opt>
+		<opt id="7"> môže sa meniť z jednej formy na druhú</opt>
+	</question>
+	<question num="2">
+		<text> Sústava látok:</text>
+		<opt id="0"> je homogénna, ak má vo všetkých svojich častiach rovnaké vlastnosti</opt>
+		<opt id="1"> je izolovaná, ak je oddelená od okolia tak, že je zabránené výmene častíc, pričom môže dôjsť k výmene energie s okolím</opt>
+		<opt id="2"> môže byť homogénna, heterogénna alebo koloidná</opt>
+		<opt id="3"> je uzavretá, ak je oddelená od okolia tak, že je zabránené výmene častíc, pričom môže dôjsť k výmene energie s okolím</opt>
+		<opt id="4"> ak je tvorená len molekulami rovnakého druhu je to chemické indivíduum</opt>
+		<opt id="5"> tvorená plynmi predstavuje heterogénnu zmes</opt>
+		<opt id="6"> ak nemá vo všetkých častiach rovnaké vlastnosti, je sústava rôznorodá, napríkladroztok NaCl v destilovanej vode</opt>
+		<opt id="7"> ktorá obsahuje rozptýlené častice väčšie ako 1.10<sup>-7</sup> m je sústava heterogénna</opt>
+	</question>
+	<question num="3">
+		<text> Ak v kadičke rozpustíme NaCl v destilovanej vode, vznikne:</text>
+		<opt id="0"> bezfarebný roztok</opt>
+		<opt id="1"> uzavretá sústava</opt>
+		<opt id="2"> pravý roztok</opt>
+		<opt id="3"> roztok elektrolytu</opt>
+		<opt id="4"> otvorená sústava</opt>
+		<opt id="5"> izolovaná sústava</opt>
+		<opt id="6"> chemicky čistá látka</opt>
+		<opt id="7"> homogénna sústava</opt>
+	</question>
+	<question num="4">
+		<text> Destilovaná voda sa od pitnej vody líši:</text>
+		<opt id="0"> chemickým zložením</opt>
+		<opt id="1"> obsahom aniónov</opt>
+		<opt id="2"> obsahom katiónov</opt>
+		<opt id="3"> tým, že destilovaná voda je silný elektrolyt a pitná voda je slabý elektrolyt</opt>
+		<opt id="4"> tým, že pitná voda je chemické indivíduum a destilovaná voda nie je chemické indivíduum</opt>
+		<opt id="5"> nelíši sa ničím</opt>
+		<opt id="6"> tým, že destilovaná voda je chemicky čistá látka a pitná voda je chemické indivíduum</opt>
+		<opt id="7"> schopnosťou tvoriť vodíkové väzby</opt>
+	</question>
+	<question num="5">
+		<text> Erlenmeyerovu banku naplníme doplna destilovanou vodou a uzatvoríme ju. Obsah nádoby je:</text>
+		<opt id="0"> sústava, ktorá má vo všetkých častiach rovnaké vlastnosti</opt>
+		<opt id="1"> chemicky čistá látka</opt>
+		<opt id="2"> chemické indivíduum</opt>
+		<opt id="3"> uzavretá sústava</opt>
+		<opt id="4"> sústava otvorená</opt>
+		<opt id="5"> heterogénna sústava</opt>
+		<opt id="6"> izolovaná sústava</opt>
+		<opt id="7"> homogénna sústava</opt>
+	</question>
+	<question num="6">
+		<text> O sústave látok platí: </text>
+		<opt id="0"> ak má vo všetkých miestach rovnaké vlastnosti nazývame ju sústava rovnorodá alebo heterogénna</opt>
+		<opt id="1"> že homogénne oblasti heterogénnej sústavy sa nazývajú fázy</opt>
+		<opt id="2"> je izolovaná, ak steny zabraňujú výmene energie a častíc medzi sústavou a okolím</opt>
+		<opt id="3"> môže byť otvorená, uzavretá alebo izolovaná</opt>
+		<opt id="4"> ak sa v sústave nachádzajú častice len jednej látky, ide o chemicky čistú látku</opt>
+		<opt id="5"> ak vznikne rozpustenim KCl vo vode, je to chemicky čistá látka</opt>
+		<opt id="6"> že je koloidná, ak je veľkosť rozptýlených častíc v rozmedzí 1.10<sup>-7</sup> až 1.10<sup>-12</sup> m</opt>
+		<opt id="7"> môže byť heterogénna, napríklad zmes čistých plynov</opt>
+	</question>
+	<question num="7">
+		<text> Pitná voda je:</text>
+		<opt id="0"> pravý roztok</opt>
+		<opt id="1"> zložená len z molekúl H<sub>2</sub>O</opt>
+		<opt id="2"> homogénna zmes</opt>
+		<opt id="3"> zmes chemických látok</opt>
+		<opt id="4"> nepravý roztok</opt>
+		<opt id="5"> suspenzia</opt>
+		<opt id="6"> chemické indivíduum</opt>
+		<opt id="7"> heterogénna zmes</opt>
+	</question>
+	<question num="8">
+		<text> Čistá morská voda: </text>
+		<opt id="0"> nie je pravý roztok</opt>
+		<opt id="1"> nie je chemicky čistá látka</opt>
+		<opt id="2"> je zložená z viacerých fáz</opt>
+		<opt id="3"> je uzatvorená sústava</opt>
+		<opt id="4"> má chemické zloženie rovnaké ako pitná voda</opt>
+		<opt id="5"> je oproti pitnej vode bohatšia o minerálne látky</opt>
+		<opt id="6"> je homogénna zmes</opt>
+		<opt id="7"> je heterogénna zmes</opt>
+	</question>
+	<question num="9">
+		<text> Destilovaná voda je:</text>
+		<opt id="0"> chemicky čistá látka</opt>
+		<opt id="1"> chemické indivíduum</opt>
+		<opt id="2"> homogénna látka</opt>
+		<opt id="3"> dobré rozpúšťadlo iónových zlúčenín</opt>
+		<opt id="4"> dobré rozpúšťadlo nepolárnych látok</opt>
+		<opt id="5"> zložená z molekúl H<sub>2</sub>O</opt>
+		<opt id="6"> silný elektrolyt</opt>
+		<opt id="7"> látka, ktorá nie je elektrolyt</opt>
+	</question>
+	<question num="10">
+		<text> Elektróny:</text>
+		<opt id="0"> rovnakých atómov sa podieľajú na tvorbe nepolárnej kovalentnej väzby (napr. v molekule N<sub>2</sub>)</opt>
+		<opt id="1"> hovoríme o nich, že sú v základnom stave, ak majú najnižšiu energiu</opt>
+		<opt id="2"> obsadzujú jednotlivé hladiny v atóme podľa ich klesajúcej energie</opt>
+		<opt id="3"> môžu byť odtrhnuté od atómu a vznikajú pri tom anióny</opt>
+		<opt id="4"> patria medzi elementárne častice atómu a majú záporný náboj</opt>
+		<opt id="5"> ich počet v atóme sa vždy rovná počtu neutrónov</opt>
+		<opt id="6"> v atómoch sa nachádzajú v priestoroch, ktoré označujeme ako orbitály</opt>
+		<opt id="7"> ktoré sa nachádzajú na poslednej vrstve atómu sa nazývajú valenčné elektróny</opt>
+	</question>
+	<question num="11">
+		<text> Roztok bielkoviny vo vode:</text>
+		<opt id="0"> nie je pravý roztok</opt>
+		<opt id="1"> je koloidný roztok</opt>
+		<opt id="2"> je chemicky čistá látka</opt>
+		<opt id="3"> je pravý roztok</opt>
+		<opt id="4"> obsahuje rozptýlené častice, ktorých priemer je 1.10<sup>-7</sup> až 1.10<sup>-9</sup> m</opt>
+		<opt id="5"> obsahuje bielkovinu disociovanú na aminokyseliny</opt>
+		<opt id="6"> je stabilizovaný hydratačným obalom</opt>
+		<opt id="7"> je heterogénna zmes</opt>
+	</question>
+	<question num="12">
+		<text> Základnou štruktúrnou jednotkou látky je:</text>
+		<opt id="0"> protón</opt>
+		<opt id="1"> elektrón</opt>
+		<opt id="2"> atóm</opt>
+		<opt id="3"> nukleón</opt>
+		<opt id="4"> hmota</opt>
+		<opt id="5"> zlúčenina</opt>
+		<opt id="6"> každé chemické indivíduum</opt>
+		<opt id="7"> molekula, napr. H<sub>2</sub>,</opt>
+	</question>
+	<question num="13">
+		<text> Chemické indivíduum môže byť:</text>
+		<opt id="0"> roztok NaCl v destilovanej vode</opt>
+		<opt id="1"> len zlúčenina</opt>
+		<opt id="2"> AL<sub>2</sub>O<sub>3</sub></opt>
+		<opt id="3"> elektrón</opt>
+		<opt id="4"> pitná voda</opt>
+		<opt id="5"> morská voda</opt>
+		<opt id="6"> prvok alebo zlúčenina</opt>
+		<opt id="7"> len prvok</opt>
+	</question>
+	<question num="14">
+		<text> Protón je častica:</text>
+		<opt id="0"> ktorá má jeden elementárny kladný náboj</opt>
+		<opt id="1"> ktorá má jeden elementárny záporný náboj</opt>
+		<opt id="2"> ktorá nepatrí medzi nukleóny</opt>
+		<opt id="3"> ktorá patrí medzi nukleóny</opt>
+		<opt id="4"> ktorá vznikne z atómu vodíka pribratím jedného elektrónu</opt>
+		<opt id="5"> ktorá vznikne z molekuly vodíka stratou jedného elektrónu</opt>
+		<opt id="6"> ktorá vznikne z atómu vodíka stratou jedného elektrónu</opt>
+		<opt id="7"> elektroneutrálna</opt>
+	</question>
+	<question num="15">
+		<text> Nuklidy <math><mmultiscripts><mn>H</mn><mprescripts/><mn>1</mn><mn>1</mn></mmultiscripts></math>, <math><mmultiscripts><mn>H</mn><mprescripts/><mn>1</mn><mn>2</mn></mmultiscripts></math> a <math><mmultiscripts><mn>H</mn><mprescripts/><mn>1</mn><mn>3</mn></mmultiscripts></math></text>
+		<opt id="0"> sú izotopy</opt>
+		<opt id="1"> majú rovnaký počet protónov</opt>
+		<opt id="2"> majú rovnaký počet neutrónov</opt>
+		<opt id="3"> majú rôzny počet nukleónov</opt>
+		<opt id="4"> majú rôzny počet elektrónov</opt>
+		<opt id="5"> majú rôzny počet neutrónov</opt>
+		<opt id="6"> majú rôzny počet protónov</opt>
+		<opt id="7"> majú rovnaké protónové číslo</opt>
+	</question>
+	<question num="16">
+		<text> Nuklidy <math><mmultiscripts><mn>O</mn><mprescripts/><mn>8</mn><mn>16</mn></mmultiscripts></math>, <math><mmultiscripts><mn>O</mn><mprescripts/><mn>8</mn><mn>17</mn></mmultiscripts></math> a <math><mmultiscripts><mn>O</mn><mprescripts/><mn>8</mn><mn>18</mn></mmultiscripts></math></text>
+		<opt id="0"> sú v prírode zastúpené v rovnakom množstve</opt>
+		<opt id="1"> majú rovnaký počet neutrónov</opt>
+		<opt id="2"> majú rovnaký počet nukleónov</opt>
+		<opt id="3"> sú izotopy</opt>
+		<opt id="4"> majú rovnaký počet elektrónov</opt>
+		<opt id="5"> majú rovnaké protónové aj nukleónové číslo</opt>
+		<opt id="6"> nelíšia sa od seba elektrónovou konfiguráciou</opt>
+		<opt id="7"> všetky majú rovnakú hmotnosť</opt>
+	</question>
+	<question num="17">
+		<text> Prócium, deutérium a trícium:</text>
+		<opt id="0"> sa líšia protónovým číslom</opt>
+		<opt id="1"> sa líšia nukleónovým číslom</opt>
+		<opt id="2"> sa líšia počtom protónov</opt>
+		<opt id="3"> sa líšia počtom neutrónov</opt>
+		<opt id="4"> sa líšia počtom elektrónov</opt>
+		<opt id="5"> sú izotopy vody</opt>
+		<opt id="6"> sú rôzne názvy jedného izotopu</opt>
+		<opt id="7"> sa líšia relatívnou atómovou hmotnosťou</opt>
+	</question>
+	<question num="18">
+		<text> Pre hlavné kvantové číslo platí:</text>
+		<opt id="0"> ak má hodnotu <i>n = 4</i>, maximálny počet elektrónov v elektrónovej vrstve <i>n</i> je 32</opt>
+		<opt id="1"> so vzrastom jeho hodnoty rastie energia elektrónov</opt>
+		<opt id="2"> možno ho použiť na výpočet energie elektrónu v danej energetickej hladine</opt>
+		<opt id="3"> hlavné kvantové číslo dnes známych prvkov nadobúda hodnoty 1 až 7</opt>
+		<opt id="4"> má vplyv na veľkosť hraničnej plochy orbitálov</opt>
+		<opt id="5"> ak má hodnotu <i>n = 3</i>, maximálny počet elektrónov v elektrónovej vrstve je 16</opt>
+		<opt id="6"> označuje sa písmenom <i>l</i></opt>
+		<opt id="7"> určuje energiu elektrónu v atóme vodika podľa vzťahu \(E_{n} = B.n^2\)</opt>
+	</question>
+	<question num="19">
+		<text> Pre vedľajšie kvantové číslo platí:</text>
+		<opt id="0"> vymedzuje hodnoty magnetického kvantového čísla</opt>
+		<opt id="1"> má vplyv na tvar hraničnej plochy orbitálov</opt>
+		<opt id="2"> charakterizuje tvar orbitálu</opt>
+		<opt id="3"> určuje počet elektrónových vrstiev v atóme</opt>
+		<opt id="4"> nadobúda hodnoty od <i>-n</i> do <i>+n</i></opt>
+		<opt id="5"> jeho hodnoty sa označujú písmenami <i>s, p, d, f</i> ...</opt>
+		<opt id="6"> sa označuje pismenom <i>n</i></opt>
+		<opt id="7"> môže nadobudnúť hodnotu <i>0</i> až <i>n-1</i></opt>
+	</question>
+	<question num="20">
+		<text> Pre magnetické kvantové číslo platí: </text>
+		<opt id="0"> má hodnoty, ktoré sú vymedzené hodnotou vedľajšieho kvantového čísla</opt>
+		<opt id="1"> nadobúda hodnoty od <i>-l</i> do <i>+l</i>, vrátane nuly</opt>
+		<opt id="2"> nadobúda hodnoty <i>+s</i> až <i>-s</i></opt>
+		<opt id="3"> určuje maximálny počet elektrónov vo valenčnej vrstve</opt>
+		<opt id="4"> závisí od neho energia elektrónu v atóme, ak sa tento nachádza v elektrickom poli</opt>
+		<opt id="5"> závisí od neho energia elektrónu v atóme, ak sa tento nachádza v magnetickom poli</opt>
+		<opt id="6"> že pre <i>l= 3</i> má hodnoty -3,-2,-1, 1, 2, 3</opt>
+		<opt id="7"> že pre <i>l= 2</i> môže mať hodnoty -2,-1, 0, 1, 2</opt>
+	</question>
+	<question num="21">
+		<text> Maximálny počet elektrónov, ktoré sa nachádzajú v elektrónovej vrstve s hlavnýmkvantovým číslom <i>n = 2</i>, je:</text>
+		<opt id="0"> 2</opt>
+		<opt id="1"> 8</opt>
+		<opt id="2"> 18</opt>
+		<opt id="3"> 32</opt>
+		<opt id="4"> možné vypočítať zo vzťahu \(2n^2\)</opt>
+		<opt id="5"> 6</opt>
+		<opt id="6"> 12</opt>
+		<opt id="7"> 16</opt>
+	</question>
+	<question num="22">
+		<text> Elektrónová hladina M môže obsahovať:</text>
+		<opt id="0"> maximálne 16 elektrónov</opt>
+		<opt id="1"> len <i>p</i> orbitaly</opt>
+		<opt id="2"> len <i>s</i> a <i>p</i> orbitály</opt>
+		<opt id="3"> <i>s</i>, <i>p</i>, <i>d</i> orbitály</opt>
+		<opt id="4"> maximálne 12 elektrónov</opt>
+		<opt id="5"> maximálne 18 elektrónov</opt>
+		<opt id="6"> maximálne 8 elektrónov</opt>
+		<opt id="7"> \(2n^2\) elektrónov, kde <i>n = </i>hlavné kvantové číslo</opt>
+	</question>
+	<question num="23">
+		<text> Neutrón:</text>
+		<opt id="0"> je častica, ktorej hmotnosť sa približne rovná hmotnosti molekuly vodíka</opt>
+		<opt id="1"> je častica, ktorá má len jeden elementárny kladný náboj</opt>
+		<opt id="2"> nie je elektricky nabitá častica</opt>
+		<opt id="3"> má hmotnosť približne rovnakú ako protón</opt>
+		<opt id="4"> je jednou zo základných elementárnych častíc elektrónového obalu</opt>
+		<opt id="5"> je jednou z dvoch druhov elementárnych častic atómového jadra</opt>
+		<opt id="6"> je základnou štruktúrnou jednotkou látky</opt>
+		<opt id="7"> nepatrí medzi nukleóny</opt>
+	</question>
+	<question num="24">
+		<text> Elektrón:</text>
+		<opt id="0"> atómu vodíka má v základnom stave najnižšiu možnú energiu</opt>
+		<opt id="1"> nemôže prejsť do niektorého stavu s vyššou hodnotou <i>n</i> ak sa atómu dodá energia</opt>
+		<opt id="2"> môže byť odtrhnutý od atómu dodaním dostatočne vysokého množstva energie</opt>
+		<opt id="3"> je charakterizovaný kvantovými číslami</opt>
+		<opt id="4"> ak je odtrhnutý od atómu vznikne kladne nabitý ión - anión</opt>
+		<opt id="5"> čím má nižšiu energiu, tým nižšia energia je potrebná na jeho odtrhnutie z atómu</opt>
+		<opt id="6"> atómu sodíka sa ľahko odtrhne a vzniká z neho katión sodíka</opt>
+		<opt id="7"> má hmotnosť približne 1830-krát nižšiu ako hmotnosť atómu vodíka</opt>
+	</question>
+	<question num="25">
+		<text> O prechodných prvkoch, ktoré sa nachádzajú v VI.B skupine platí:</text>
+		<opt id="0"> majú atómové polomery, ktoré sú relatívne väčšie ako pri \(s^1\) prvkoch (v rámci jednejperiódy)</opt>
+		<opt id="1"> majú v poslednej vrstve 1 alebo 2 elektróny</opt>
+		<opt id="2"> majú v predposlednej vrstve aj neúplne obsadené <i>d</i> orbitály</opt>
+		<opt id="3"> majú v predposlednej vrstve neobsadené <i>p</i> orbitály</opt>
+		<opt id="4"> majú vo valenčnej vrstve 8 elektrónov</opt>
+		<opt id="5"> všetky majú hlavné kvantové číslo <i>n = 4</i></opt>
+		<opt id="6"> všetky sú kovy</opt>
+		<opt id="7"> v poslednej vrstve majú 6 elektrónov</opt>
+	</question>
+	<question num="26">
+		<text> Podľa Pauliho princípu:</text>
+		<opt id="0"> v orbitále \(p_x\) môže byť maximálne 1 elektrón</opt>
+		<opt id="1"> v orbitále \(p_y\) môžu byť maximálne 2 elektróny</opt>
+		<opt id="2"> v orbitále \(p_y\) môže byť maximálne 6 elektrónov</opt>
+		<opt id="3"> v orbitále \(p_z\) môže byť maximálne 10 elektrónov</opt>
+		<opt id="4"> v orbitále <i>s</i> môže byť maximálne 1 elektrón</opt>
+		<opt id="5"> v orbitále <i>s</i> môžu byť maximálne 2 elektróny</opt>
+		<opt id="6"> v orbitáloch <i>d</i> môže byť maximálne 10 elektrónov</opt>
+		<opt id="7"> v orbitále môžu byť najviac 2 elektróny s opačným spinom</opt>
+	</question>
+	<question num="27">
+		<text> Podľa Hundovho pravidla je elektrónová konfigurácia atómu:</text>
+		<opt id="0"> bóru <math><mmultiscripts><mn>B</mn><mprescripts/><mn>5</mn><mn>11</mn></mmultiscripts></math>:[He] \(2s^2\) \(2p_x^1\)</opt>
+		<opt id="1"> síry <math><mmultiscripts><mn>S</mn><mprescripts/><mn>16</mn><mn>32</mn></mmultiscripts></math>: \(1s^2\) \(2s^2\) \(2p_x^2\) \(2p_y^2\) \(2p_z^2\) \(3s^2\) \(3p_x^2\) \(3p_y^1\) \(3p_z^1\)</opt>
+		<opt id="2"> dusika <math><mmultiscripts><mn>NS</mn><mprescripts/><mn>7</mn><mn>17</mn></mmultiscripts></math>: \(1s^2\) \(2s^2\) \(2p_x^2\) \(2p_y^1\) \(2p_z^1\)</opt>
+		<opt id="3"> berýlia <math><mmultiscripts><mn>Be</mn><mprescripts/><mn>4</mn><mn>9</mn></mmultiscripts></math>: \(1s^2\) \(2s^1\) \(2p_x^1\)</opt>
+		<opt id="4"> lítia <math><mmultiscripts><mn>Li</mn><mprescripts/><mn>3</mn><mn>7</mn></mmultiscripts></math>: \(1s^2\) \(2s^2\)</opt>
+		<opt id="5"> bóru <math><mmultiscripts><mn>B</mn><mprescripts/><mn>5</mn><mn>11</mn></mmultiscripts></math>: \(1s^2\) \(2s^2\) \(2p_x^1\)</opt>
+		<opt id="6"> dusika <math><mmultiscripts><mn>N</mn><mprescripts/><mn>4</mn><mn>17</mn></mmultiscripts></math>: \(1s^2\) \(2s^2\) \(2p_x^1\) \(2p_y^1\) \(2p_z^1\)</opt>
+		<opt id="7"> draslíka <math><mmultiscripts><mn>K</mn><mprescripts/><mn>19</mn><mn>39</mn></mmultiscripts></math>:[Ar] \(5s^1\)</opt>
+	</question>
+	<question num="28">
+		<text> Číslo skupiny A v periodickej sústave:</text>
+		<opt id="0"> sa nezhoduje s hodnotou hlavného kvantového čísla</opt>
+		<opt id="1"> sa zhoduje s počtom elektrónov na poslednej elektrónovej vrstve</opt>
+		<opt id="2"> nadobúda hodnoty I až VIII</opt>
+		<opt id="3"> označuje počet orbitálov v atóme</opt>
+		<opt id="4"> je rovnaké ako najvyššie záporné oxidačné číslo atómu prvku v skupine</opt>
+		<opt id="5"> sa zhoduje s číslom periódy pre každý prvok</opt>
+		<opt id="6"> je rovnaké ako najvyššie kladné oxidačné číslo atómov prvkov v I. až VII. skupine(okrem O a F)</opt>
+		<opt id="7"> sa zhoduje s hlavným kvantovým číslom prvku</opt>
+	</question>
+	<question num="29">
+		<text> Číslo periódy v periodickej sústave prvkov je rovnaké ako:</text>
+		<opt id="0"> hlavné kvantové číslo valenčných elektrónov atómov neprechodných prvkov v danejperióde</opt>
+		<opt id="1"> vedľajšie kvantové čislo valenčných elektrónov atómov prvkov v danej perióde</opt>
+		<opt id="2"> magnetické kvantové číslo valenčných elektrónov atómov prvkov v danej perióde</opt>
+		<opt id="3"> spinové kvantové číslo valenčných elektrónov atómov prvkov v danej perióde</opt>
+		<opt id="4"> počet valenčných elektrónov atómu daného prvku</opt>
+		<opt id="5"> najväčšie kladné oxidačné číslo atómu daného prvku</opt>
+		<opt id="6"> najväčšie záporné oxidačné číslo atómu daného prvku</opt>
+		<opt id="7"> počet elektrónových vrstiev atómov prvkov danej periódy</opt>
+	</question>
+	<question num="30">
+		<text> Medzi <i>f</i> prvky zaraďujeme: </text>
+		<opt id="0"> prvky skupin I.B až VII.B</opt>
+		<opt id="1"> napr. tie prvky, ktoré s rastúcim protónovým číslom si postupne dopĺňajú 14 elektrónov v orbitále 4<i>f</i> (lantanoidy)</opt>
+		<opt id="2"> chalkogény</opt>
+		<opt id="3"> lantanoidy a aktinoidy</opt>
+		<opt id="4"> halogenidy</opt>
+		<opt id="5"> tie prvky, ktoré majú vo valenčnej vrstve elektróny n<i>s</i> a n<i>p</i> a v predposlednej vrstve elektróny <i>(n-1)f</i></opt>
+		<opt id="6"> vnútorne prechodné prvky</opt>
+		<opt id="7"> prvky, ktoré sa nachádzajú v VI.A a VII.A skupine periodickej sústavy</opt>
+	</question>
+	<question num="31">
+		<text> Energia, ktorá sa spotrebuje na rozštiepenie určitej chemickej väzby: </text>
+		<opt id="0"> je rovnaká ako aktivačná energia</opt>
+		<opt id="1"> je rovnaká ako energia, ktorá sa uvoľní pri jej vzniku</opt>
+		<opt id="2"> je vyššia ako energia, ktorá sa uvoľní pri jej vzniku</opt>
+		<opt id="3"> je rovnaká ako ionizačná energia</opt>
+		<opt id="4"> je disociačná energia väzby</opt>
+		<opt id="5"> je nazývaná tiež väzbová energia</opt>
+		<opt id="6"> udáva sa napr. v jednotkách kJ.mol<sup>-1</sup></opt>
+		<opt id="7"> je nižšia ako energia, ktorá sa uvoľní pri jej vzniku</opt>
+	</question>
+	<question num="32">
+		<text> Väzbovosť atómu:</text>
+		<opt id="0"> súvisí s konfiguráciou jeho valenčnej vrstvy</opt>
+		<opt id="1"> súvisí s konfiguráciou valenčnej vrstvy atómov, s ktorými sa zlučuje</opt>
+		<opt id="2"> závisí od počtu orbitálov, ktoré v základnom stave majú len jeden elektrón</opt>
+		<opt id="3"> prvkov 2. a 3. periódy sa riadi prevažne oktetovým pravidlom</opt>
+		<opt id="4"> nesúvisí s konfiguráciou valenčnej vrstvy atómov, s ktorými sa zlučuje</opt>
+		<opt id="5"> pri niektorých prvkoch sa odvodzuje od elektrónovej konfigurácie v excitovanom stave(napr. C)</opt>
+		<opt id="6"> je počet iónových väzieb, ktoré môže daný prvok tvoriť</opt>
+		<opt id="7"> je počet kovalentných väzieb, ktorými sa atóm daného prvku viaže v zlúčenine</opt>
+	</question>
+	<question num="33">
+		<text> V molekule peroxidu vodíka:</text>
+		<opt id="0"> má atóm kyslíka oxidačné číslo -II</opt>
+		<opt id="1"> má atóm kyslíka oxidačné číslo -I</opt>
+		<opt id="2"> má atóm kyslíka väzbovosť 1</opt>
+		<opt id="3"> má atóm vodika oxidačné číslo -I</opt>
+		<opt id="4"> má atóm vodíka oxidačné číslo I</opt>
+		<opt id="5"> má atóm vodika oxidačné číslo II</opt>
+		<opt id="6"> má atóm kyslíka väzbovosť 2</opt>
+		<opt id="7"> sú atómy kyslíka a vodíka viazané kovalentnou vazbou</opt>
+	</question>
+	<question num="34">
+		<text> V molekule acetylénu medzi atómami uhlíka: </text>
+		<opt id="0"> sú 3 sigma väzby</opt>
+		<opt id="1"> je 1 sigma a 2 pí väzby</opt>
+		<opt id="2"> sú 2 sigma a 1 pí väzby</opt>
+		<opt id="3"> sú kovalentné väzby</opt>
+		<opt id="4"> sú vodíkové väzby</opt>
+		<opt id="5"> je trojitá väzba</opt>
+		<opt id="6"> je dvojitá väzba</opt>
+		<opt id="7"> je väzba, ktorá túto zlúčeninu radí medzi alkíny</opt>
+	</question>
+	<question num="35">
+		<text> Trojitá väzba:</text>
+		<opt id="0"> v molekule uhlovodíka je reaktívnejšia ako jednoduchá</opt>
+		<opt id="1"> medzi rovnakými atómami je najpevnejšia</opt>
+		<opt id="2"> je typická pre alkadiény</opt>
+		<opt id="3"> vzniká prekrytím <i>s</i>-orbitálov</opt>
+		<opt id="4"> je napr. v molekule acetylénu</opt>
+		<opt id="5"> je napr. v molekule etylénu</opt>
+		<opt id="6"> je napr. v molekule etinu</opt>
+		<opt id="7"> patrí medzi násobné väzby</opt>
+	</question>
+	<question num="36">
+		<text> Pre iónové zlúčeniny platí: </text>
+		<opt id="0"> sú väčšinou nerozpustné vo vode</opt>
+		<opt id="1"> sú väčšinou rozpustné vo vode</opt>
+		<opt id="2"> majú štruktúru, v ktorej sa elektrostatickými silami priťahujú katióny a anióny</opt>
+		<opt id="3"> ako taveniny alebo v roztokoch vedú elektrický prúd</opt>
+		<opt id="4"> sú tie, pre ktoré je typická kovalentná väzba medzi prvkami</opt>
+		<opt id="5"> sú tie, u ktorých je rozdiel elektronegativít zlučovaných prvkov vyšší ako 1,7</opt>
+		<opt id="6"> vo vode disociujú na ióny</opt>
+		<opt id="7"> ich vodné roztoky sú elektrolyty</opt>
+	</question>
+	<question num="37">
+		<text> Elektronegativita atómu draslíka je 0,9 a atómu brómu je 2,7. Aká je väzba medzi atómami Br a K v bromide draselnom:</text>
+		<opt id="0"> \(\pi\) - väzba</opt>
+		<opt id="1"> násobná väzba</opt>
+		<opt id="2"> sigma väzba</opt>
+		<opt id="3"> iónová väzba</opt>
+		<opt id="4"> kovová väzba</opt>
+		<opt id="5"> koordinačná väzba</opt>
+		<opt id="6"> rovnaká ako medzi atómami Na a Cl v chloride sodnom</opt>
+		<opt id="7"> kovalentná väzba</opt>
+	</question>
+	<question num="38">
+		<text> Stabilita molekuly:</text>
+		<opt id="0"> závisí od množstva energie, ktorá sa uvoľni pri jej vzniku</opt>
+		<opt id="1"> závisí od aktivačnej energie reakcie jej vzniku</opt>
+		<opt id="2"> závisí od množstva odštiepených protónov</opt>
+		<opt id="3"> nezávisí od množstva energie, ktorá sa uvoľní pri jej vzniku</opt>
+		<opt id="4"> je tým menšia, čím sa pri jej vzniku pohltí viac energie</opt>
+		<opt id="5"> je tým menšia, čím má molekula nižšiu hodnotu elektronegativity</opt>
+		<opt id="6"> súvisí s ionizačnou energiou</opt>
+		<opt id="7"> je tým väčšia, čím sa pri jej vzniku pohltí viac energie</opt>
+	</question>
+	<question num="39">
+		<text> Katióny sú ióny, ktoré: </text>
+		<opt id="0"> sa pohybujú v jednosmernom elektrickom poli ku katóde</opt>
+		<opt id="1"> majú kladný náboj</opt>
+		<opt id="2"> sa pohybujú v jednosmernom elektrickom poli k anóde</opt>
+		<opt id="3"> nemôžu vznikať z atómov alkalických kovov</opt>
+		<opt id="4"> sa ľahko tvoria z prvkov s nízkou elektronegativitou</opt>
+		<opt id="5"> majú viac protónov ako elektrónov</opt>
+		<opt id="6"> vznikajú z atómov prvkov po odovzdaní 1 alebo viac elektrónov</opt>
+		<opt id="7"> sa ľahko tvoria z prvkov s nízkou ionizačnou energiou</opt>
+	</question>
+	<question num="40">
+		<text> Iónové zlúčeniny:</text>
+		<opt id="0"> v pevnom skupenstve vytvárajú kryštály</opt>
+		<opt id="1"> v pevnom skupenstve sú elektricky nevodivé</opt>
+		<opt id="2"> vo vodnom prostredí sa rozpadajú na katióny a anióny</opt>
+		<opt id="3"> v kryštalickom stave sú krehké</opt>
+		<opt id="4"> po rozpusteni vo vode sa správajú ako elektrolyty</opt>
+		<opt id="5"> rozpúšťajú sa v nepolárnych rozpúšťadlách</opt>
+		<opt id="6"> vznikajú tak, že na väzbu medzi atómami poskytuje elektróny len jeden atóm</opt>
+		<opt id="7"> tvoria atómy prvkov s veľkým rozdielom hodnôt elektronegativit (>1,7)</opt>
+	</question>
+	<question num="41">
+		<text> Ak obidva elektróny pri vzniku kovalentnej väzby poskytne len jeden atóm,hovoríme o väzbe:</text>
+		<opt id="0"> koordinačnej</opt>
+		<opt id="1"> donorovo-akceptorovej</opt>
+		<opt id="2"> kovovej</opt>
+		<opt id="3"> kovalentnej nepolárnej</opt>
+		<opt id="4"> vodíkovej</opt>
+		<opt id="5"> iónovej</opt>
+		<opt id="6"> ktorá sa nachádza aj v \(NH_4^+\)</opt>
+		<opt id="7"> ktorá je typická pre iónové zlúčeniny</opt>
+	</question>
+	<question num="42">
+		<text> V \(NH_4Cl\) medzi jednotlivými atómami môžu byť väzby:</text>
+		<opt id="0"> iónová</opt>
+		<opt id="1"> donorovo-akceptorová</opt>
+		<opt id="2"> kovalentná</opt>
+		<opt id="3"> vodíková</opt>
+		<opt id="4"> koordinačná</opt>
+		<opt id="5"> kovová</opt>
+		<opt id="6"> van der Waalsove</opt>
+		<opt id="7"> σ a π</opt>
+	</question>
+	<question num="43">
+		<text> Nepolárna je molekula:</text>
+		<opt id="0"> \(CO\)</opt>
+		<opt id="1"> \(CO_2\)</opt>
+		<opt id="2"> \(N_2\)</opt>
+		<opt id="3"> \(CH_3CH_2OH\)</opt>
+		<opt id="4"> \(O_2\)</opt>
+		<opt id="5"> \(H_2O\)</opt>
+		<opt id="6"> \(Cl_2\)</opt>
+		<opt id="7"> \(HCl\)</opt>
+	</question>
+	<question num="44">
+		<text> Jednoduchá kovalentná väzba: </text>
+		<opt id="0"> je medzi atómami C-C a C-H nasýtených</opt>
+		<opt id="1"> je v molekule \(H_2\) uhlovodíkov</opt>
+		<opt id="2"> vzniká, ak rozdiel v hodnote elektronegativít viazaných atómov je vyšší ako 1,7</opt>
+		<opt id="3"> je napríklad v molekule NaCl</opt>
+		<opt id="4"> je v molekule etánu</opt>
+		<opt id="5"> je v molekule etínu medzi atómami uhlíka</opt>
+		<opt id="6"> vzniká, ak sa na tvorbe elektrónovej dvojice tejto väzby podieľajú obidva atómy</opt>
+		<opt id="7"> je medzi atómami dusíka v molekule \(N_2\)</opt>
+	</question>
+	<question num="45">
+		<text> Koordinačná väzba:</text>
+		<opt id="0"> vzniká tak, že obidva väzbové elektróny poskytne len jeden atóm</opt>
+		<opt id="1"> **otazka 45 moznost b) !!MISSING!!**</opt>
+		<opt id="2"> **otazka 45 moznost c) !!MISSING!!**</opt>
+		<opt id="3"> **otazka 45 moznost d) !!MISSING!!**</opt>
+		<opt id="4"> **otazka 45 moznost e) !!MISSING!!**</opt>
+		<opt id="5"> **otazka 45 moznost f) !!MISSING!!**</opt>
+		<opt id="6"> **otazka 45 moznost g) !!MISSING!!**</opt>
+		<opt id="7"> **otazka 45 moznost h) !!MISSING!!**</opt>
+	</question>
+</questions>

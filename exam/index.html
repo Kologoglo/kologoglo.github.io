@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>LF UK Exam</title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+        <link rel="stylesheet" href="owl.carousel.min.css">
+        <link rel="stylesheet" href="owl.theme.default.min.css">
+        <link rel="stylesheet" href="style.css">
+
+
+        <script src="jquery-3.6.3.min.js"></script>
+        <script src="owl.carousel.min.js"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
+        <script src="script.js" type="text/javascript"></script>
+        <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> -->
+    </head>
+    <body>
+        
+        <div class="background"></div>
+        
+        <div class="welcome-wnd active">
+            <h2>Welcome</h2>
+            <p class="w-text">Number of questions to answer:</p>
+            <div>
+                <input type="number" id="num-questions" value="" min="1" max="" required oninput="num_q_change(this)">
+                <input type="checkbox" id="all-questions" class="checkbox" onclick="all_q_click(this)"><label for="all-questions">all</label>
+            </div>
+            <p class="w-text">Number of options to show:</p>
+            <div>
+                <input type="radio" name="num-answers" id="four-answers" class="checkbox" checked><label for="four-answers">4</label>
+                <input type="radio" name="num-answers" id="all-answers" class="checkbox"><label for="all-answers">all</label>
+            </div>
+            <p class="w-data">Database contains <span class="info-num-questions"></span> questions.</p>
+            <div class="w-d3">
+                <button id="start" onclick="btnstart()">start</button>
+            </div>
+        </div>
+
+        <div class="result-wnd">
+            <p class="r-text">Correct: <span class="r-correct">0</span></p>
+            <p class="r-text">Wrong: <span class="r-wrong">0</span></p>
+            <p class="r-text">Unanswered: <span class="r-unanswered">0</span></p>
+            <div class="r-stats">
+                <div class="r-container">
+                    <div class="r-numbers-wrapper owl-carousel owl-theme">
+                        
+                    </div>
+                </div>
+                <div class="r-d3">
+                    <button class="r-btn-close" onclick="btncloseresults()">close</button>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <div class="container" id="container">
+            
+            <!-- MathJax style
+            welcome wnd animation, functionality
+            js object Exam -->
+            <!-- <button id="test" onclick="test()">test</button>
+            <div class="testdiv"></div> -->
+            <!-- <div class="card">
+                <h3 class="q-text">1. Úloha 1 iubfer iuwhef wue wuehfu wehuew weeu ewiubn we<math><msubsup><mn>A</mn><mn>3</mn><mn>+II</mn></msubsup></math></h3>
+                <ol class="opt-list">
+                    <li class="opt" onclick="optclick(this)">
+                        <span class="opt-text">možnosť lorem ipsum dolor sit 1
+                            When \(a \le < 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+                            \(\sideset{_2^1}{}{}\)NaCl
+                            <math><mmultiscripts> <mn>NaCl</mn><mprescripts/><mn>3</mn><mn>3</mn></mmultiscripts></math>
+                            <div id="aaa">
+                                $$x = {-b \pm \sqrt{b^2-4ac} \over 2a^{1 \over 2}}.$$
+                            </div>
+                        </span>
+                        <span class="btn-container">
+                            <button class="btn-tf btn-t" onclick="btnclick(this)"><i class="fa-solid fa-check"></i></button>
+                            <button class="btn-tf btn-f" onclick="btnclick(this)"><i class="fa-solid fa-xmark"></i></button>
+                            
+                        </span>
+                    </li>
+                    <li class="opt" onclick="optclick(this)">
+                        <span class="opt-text">možnosť lorem ipsum dolor sit 2erfiuh re sdfiu  s ffsdds iufhererh w riu
+                            <math><mmultiscripts> <mn>H</mn><mprescripts/><mn>3</mn><mn>3</mn></mmultiscripts></math>
+                        </span>
+                        <span class="btn-container">
+                            <button class="btn-tf btn-t" onclick="btnclick(this)"><i class="fa-solid fa-check"></i></button>
+                            <button class="btn-tf btn-f" onclick="btnclick(this)"><i class="fa-solid fa-xmark"></i></button>
+                        </span>
+                    </li>
+                    <li class="opt" onclick="optclick(this)">
+                        <span class="opt-text">možnosť lorem ipsum dolor sit 3</span>
+                        <span class="btn-container">
+                            <button class="btn-tf btn-t" onclick="btnclick(this)"><i class="fa-solid fa-check"></i></button>
+                            <button class="btn-tf btn-f" onclick="btnclick(this)"><i class="fa-solid fa-xmark"></i></button>
+                        </span>
+                    </li>
+                    <li class="opt" onclick="optclick(this)">
+                        <span class="opt-text">možnosť lorem ipsum dolor sit 4</span>
+                        <span class="btn-container">
+                            <button class="btn-tf btn-t" onclick="btnclick(this)"><i class="fa-solid fa-check"></i></button>
+                            <button class="btn-tf btn-f" onclick="btnclick(this)"><i class="fa-solid fa-xmark"></i></button>
+                        </span>
+                    </li>
+                </ol>
+            </div>
+            <div class="card">
+                <h3 class="q-text">2. Úloha 2</h3>
+                <ol class="opt-list">
+                    <li class="opt" onclick="optclick(this)">
+                        <span class="opt-text">možnosť lorem ipsum dolor sit 1</span>
+                        <span class="btn-container">
+                            <button class="btn-tf btn-t" onclick="btnclick(this)"><i class="fa-solid fa-check"></i></button>
+                            <button class="btn-tf btn-f" onclick="btnclick(this)"><i class="fa-solid fa-xmark"></i></button>
+                        </span>
+                    </li>
+                    <li class="opt" onclick="optclick(this)">
+                        <span class="opt-text">možnosť lorem ipsum dolor sit 2erfiuh re sdfiu  s ffsdds iufhererh w riu </span>
+                        <span class="btn-container">
+                            <button class="btn-tf btn-t" onclick="btnclick(this)"><i class="fa-solid fa-check"></i></button>
+                            <button class="btn-tf btn-f" onclick="btnclick(this)"><i class="fa-solid fa-xmark"></i></button>
+                        </span>
+                    </li>
+                    <li class="opt" onclick="optclick(this)">
+                        <span class="opt-text">možnosť lorem ipsum dolor sit 3</span>
+                        <span class="btn-container">
+                            <button class="btn-tf btn-t" onclick="btnclick(this)"><i class="fa-solid fa-check"></i></button>
+                            <button class="btn-tf btn-f" onclick="btnclick(this)"><i class="fa-solid fa-xmark"></i></button>
+                        </span>
+                    </li>
+                    <li class="opt" onclick="optclick(this)">
+                        <span class="opt-text">možnosť lorem ipsum dolor sit 4</span>
+                        <span class="btn-container">
+                            <button class="btn-tf btn-t" onclick="btnclick(this)"><i class="fa-solid fa-check"></i></button>
+                            <button class="btn-tf btn-f" onclick="btnclick(this)"><i class="fa-solid fa-xmark"></i></button>
+                        </span>
+                    </li>
+                </ol>
+            </div>
+            <div class="card">
+                <h3 class="q-text">3. Úloha 3</h3>
+                <ol class="opt-list">
+                    <li class="opt" onclick="optclick(this)">
+                        <span class="opt-text">možnosť lorem ipsum dolor sit 1</span>
+                        <span class="btn-container">
+                            <button class="btn-tf btn-t" onclick="btnclick(this)"><i class="fa-solid fa-check"></i></button>
+                            <button class="btn-tf btn-f" onclick="btnclick(this)"><i class="fa-solid fa-xmark"></i></button>
+                        </span>
+                    </li>
+                    <li class="opt" onclick="optclick(this)">
+                        <span class="opt-text">možnosť lorem ipsum dolor sit 2erfiuh re sdfiu  s ffsdds iufhererh w riu </span>
+                        <span class="btn-container">
+                            <button class="btn-tf btn-t" onclick="btnclick(this)"><i class="fa-solid fa-check"></i></button>
+                            <button class="btn-tf btn-f" onclick="btnclick(this)"><i class="fa-solid fa-xmark"></i></button>
+                        </span>
+                    </li>
+                    <li class="opt" onclick="optclick(this)">
+                        <span class="opt-text">možnosť lorem ipsum dolor sit 3</span>
+                        <span class="btn-container">
+                            <button class="btn-tf btn-t" onclick="btnclick(this)"><i class="fa-solid fa-check"></i></button>
+                            <button class="btn-tf btn-f" onclick="btnclick(this)"><i class="fa-solid fa-xmark"></i></button>
+                        </span>
+                    </li>
+                    <li class="opt" onclick="optclick(this)">
+                        <span class="opt-text">možnosť lorem ipsum dolor sit 4</span>
+                        <span class="btn-container">
+                            <button class="btn-tf btn-t" onclick="btnclick(this)"><i class="fa-solid fa-check"></i></button>
+                            <button class="btn-tf btn-f" onclick="btnclick(this)"><i class="fa-solid fa-xmark"></i></button>
+                        </span>
+                    </li>
+                </ol>
+            </div> -->
+        </div> 
+
+        <div class="status-bar">
+            <div class="status-bar-wrapper">
+                <div class="status-bar-row1">
+                    <button id="btn-submit-answers" onclick="checkAnswersBtn()">Submit</button>
+                    <button class="btn-show-results" onclick="btnshowresults()"><i class="fa-solid fa-angle-up"></i></button>
+                    <span class="num-indicator">
+                        <span id="num-done">0</span>
+                        /
+                        <span id="num-all">0</span>
+                    </span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" per="0"></div>
+                </div>
+            </div>
+
+        </div>
+
+        
+
+
+    </body>
+</html>
